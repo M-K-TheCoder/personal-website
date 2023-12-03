@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.bgimage {
+    background-color: black; */
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100px;
+
+
+}
+
+ .menu {
+    width: 100%;
+    height: 100px;
+    line-height: 2px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.leftmenu {
+    width: 10px;
+    line-height: 80px;
+    float: center;
+    font-family: 'Montserrate', sans-serif;
+
+}
+
+.leftmenu h1 {
+    padding-left: 80px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.rightmenu {
+    width: 75%;
+    height: 80px;
+    float: right;
+}
+.rightmenu ul li{
+    font-family: 'monsterrate ', sans-serif;
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 60px;
+    
+    
+}
