@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 .bgimage {
@@ -14,17 +13,17 @@
 }
 
  .menu {
-    width: 100%;
-    height: 100px;
+     width: 100%; 
+     height: 10px; 
     line-height: 2px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .leftmenu {
     width: 10px;
-    line-height: 80px;
+     line-height: 80px;
     float: center;
-    font-family: 'Montserrate', sans-serif;
+    font-family: 'Montserrate', sans-serif; */
 
 }
 
@@ -36,18 +35,22 @@
 }
 
 .rightmenu {
-    width: 75%;
+    
     height: 80px;
-    float: right;
+    float: right; 
+    align-items: center;
 }
 .rightmenu ul li{
+    
     font-family: 'monsterrate ', sans-serif;
     display: inline-block;
     list-style: none;
     font-size: 15px;
     color: white;
     font-weight: bold;
-    margin-left: 60px;
+    margin-left: 50px;
+    line-height: center;
+    
     
     
 }
@@ -58,9 +61,16 @@
 }
 .section .parentDiv{
     display: flex;
-
+    
 }
 .section .parentDiv .img img{
     border-radius: 100px;
     border: 20px red solid;
+    justify-content: center;
+   margin: 60px;
+   padding: 2px;
+}
+.bio h1 p{
+         text-align: center;
+       
 }
